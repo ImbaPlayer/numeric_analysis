@@ -92,10 +92,10 @@ def test():
     print("test", X_Error(x, x_e))
 
 if __name__ == "__main__":
-    # for i in range(2, 21):
-    #     H = Hilbert(i)
-    #     print("%d Hilbert's cond: %f" % (i, Cond(H, 2)))
-    n = 7
-    SolveHilbert(n)
+    for i in range(2, 21):
+        H = Hilbert(i)
+        print("%d Hilbert's cond: %f" % (i, Cond(H, 2)))
+    # n = 7
+    # SolveHilbert(n)
 
     # test()
